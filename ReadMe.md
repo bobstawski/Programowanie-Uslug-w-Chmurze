@@ -26,5 +26,11 @@ Do wykonania ćwiczenia użyto wcześniej przygotowaną bazę - LAB1. Wedle pole
 ![9](images_firewall/1b.png)
 ![10](images_firewall/1c.png)
 ## Ćwiczenie: Wprowadzenie do Azure Cosmos DB
-Podczas ostatniego ćwiczenia stworzono najpierw konto Azure CosmosDB.
-
+Podczas ostatniego ćwiczenia stworzono najpierw konto Azure CosmosDB NOSQL API.
+![11](images_cosmos/1.png)
+Następnie utworzono bazę 'ToDoDatabase' oraz kontener 'ToDoList' wraz z partycjonowaniem według klucza '/category'.
+![12](images_cosmos/2.png)
+Za pomocą narzędzia Data Explorer w Azure Portal dodano kilka przykładowych rekordów oraz wykonano zapytanie za pomocą języka CosmosDB.
+![13](images_cosmos/3.png)
+Badanie możliwości skalowania było niestety niemożliwe, gdyż subskrybcja 'Azure For Students' ograniczala wartość parametru throughput do niezmielaniego 1000 RU/s (wyskakiwał błąd jak na screenie)
+![14](images_cosmos/4.png)
