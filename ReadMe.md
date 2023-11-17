@@ -4,7 +4,18 @@ Podczas niniejszego laboratorium wykonano kilka ćwiczeń. Pierwsze z nich dotyc
 
 ## Ćwiczenie: Baza danych MS SQL Server w Azure
 Ćwiczenie rozpoczęto od zarejestrowania się i aktywowanie subskrypcji Politechnicznej.
-![1](images_ms_sql/1/png)
+![1](images_ms_sql/1.png)
+Następnie za pomocą usługi 'SQL Databases' skonfigurowano i stworzono serwer bazy SQL o nazwie 'LAB 1'.
+![2](images_ms_sql/2_i_3.png)
+Poprawną konfigurację i dostęp do bazy sprawdzono w aplikacjach SSMS (SQL Server Management Studio):
+![3](images_ms_sql/4b.png)
+Oraz Azure Data Studio:
+![4](images_ms_sql/4a.png)
+W kroku 5 napisano skrypt w jęzuky Python (sql.py), który łaczy się z utworzonym serwerem oraz wykonuje fundamentalne instrukcje na relacyjnej bazie danych.
+
+Kolejnym kork jest stworzenie maszyny wirtualnej, oraz skonfigurowanie publicznego dostępu za pomocą HTTP, HTTPS oraz SSH.
+![5](images_ms_sql/6a.png)
+![6](images_ms_sql/6c.png)
 ## Ćwiczenie: Konfiguracja Firewalla Azure SQL Database
 
 ## Ćwiczenie: Wprowadzenie do Azure Cosmos DB
