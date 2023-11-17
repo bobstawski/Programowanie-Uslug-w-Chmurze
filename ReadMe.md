@@ -32,5 +32,10 @@ Następnie utworzono bazę 'ToDoDatabase' oraz kontener 'ToDoList' wraz z partyc
 ![12](images_cosmos/2.png)
 Za pomocą narzędzia Data Explorer w Azure Portal dodano kilka przykładowych rekordów oraz wykonano zapytanie za pomocą języka CosmosDB.
 ![13](images_cosmos/3.png)
-Badanie możliwości skalowania było niestety niemożliwe, gdyż subskrybcja 'Azure For Students' ograniczala wartość parametru throughput do niezmielaniego 1000 RU/s (wyskakiwał błąd jak na screenie)
+Badanie możliwości skalowania było niestety niemożliwe, gdyż subskrybcja 'Azure For Students' ograniczala wartość parametru throughput do niezmielaniego 1000 RU/s (wyskakiwał błąd jak na screenie).
 ![14](images_cosmos/4.png)
+Za pomocą narzędzia Azure Monitor zbadano metrykę 'Available Storage', widoczną poniżej.
+![15](images_cosmos/5.png)
+Przepustowość dla przykładowego zapytania można zobaczyć w jego szczegółach.
+![16](images_cosmos/6.png)
+Finalnie, stworzono skrypt w języku Python, która łączy się z moją bazą danych, a następniej wykonuje kilka poleceń fundamentalnych, na plikach typu JSON (cosmos.py).
