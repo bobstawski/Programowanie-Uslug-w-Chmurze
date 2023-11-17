@@ -16,6 +16,15 @@ W kroku 5 napisano skrypt w jęzuky Python (sql.py), który łaczy się z utworz
 Kolejnym kork jest stworzenie maszyny wirtualnej, oraz skonfigurowanie publicznego dostępu za pomocą HTTP, HTTPS oraz SSH.
 ![5](images_ms_sql/6a.png)
 ![6](images_ms_sql/6c.png)
-## Ćwiczenie: Konfiguracja Firewalla Azure SQL Database
 
+Finalnym elementem ćwiczenia jest utworzenie przykładowej tabeli w usłudze Azure Table Storage.
+![7](images_ms_sql/7a.png)
+![8](images_ms_sql/7b.png)
+Fundamentalne polecenia CRUD zautomatyzowano za pomocą skryptu w języku Python (table.py).
+## Ćwiczenie: Konfiguracja Firewalla Azure SQL Database
+Do wykonania ćwiczenia użyto wcześniej przygotowaną bazę - LAB1. Wedle polecenia dodano adres IP (dla bezpieczeństwa zamazane) nowego klienta, a następnie napisano konfigurację, pozwalając na dostęp nowym adresom IP.
+![9](images_firewall/1b.png)
+![10](images_firewall/1c.png)
 ## Ćwiczenie: Wprowadzenie do Azure Cosmos DB
+Podczas ostatniego ćwiczenia stworzono najpierw konto Azure CosmosDB.
+
